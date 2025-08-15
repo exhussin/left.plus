@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Links — Link Hub</title>
+  <meta name="description" content="All my links in one place.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="profile">
+      <img class="avatar" src="https://api.dicebear.com/9.x/initials/svg?seed=U&backgroundType=gradientLinear" alt="Avatar">
+      <h1 class="name">@yourname</h1>
+      <p class="bio">Short bio goes here. Creator • Developer • Whatever you like.</p>
+
+      <div class="socials">
+        <a href="https://instagram.com/">Instagram</a>
+        <a href="https://x.com/">X / Twitter</a>
+        <a href="https://t.me/">Telegram</a>
+      </div>
+    </header>
+
+    <section class="links">
+      <a class="link" href="https://example.com">My Website</a>
+      <a class="link" href="https://wa.me/0000000000">WhatsApp Me</a>
+      <a class="link" href="mailto:you@example.com">Email</a>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Your Name</small>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

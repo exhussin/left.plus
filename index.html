@@ -3,36 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ليفت بلس</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>صفحة الروابط</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 5px;
+            font-size: 1.5em;
+        }
+        p {
+            color: #666;
+            margin-bottom: 25px;
+            font-size: 0.9em;
+        }
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #eee;
+            color: #333;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .link-btn:hover {
+            background-color: #ddd;
+        }
+        .link-btn img {
+            width: 24px;
+            height: 24px;
+            margin-left: 15px;
+            filter: invert(30%); /* Adjust as needed for icon color */
+        }
+        .dots-icon {
+            font-size: 1.5em;
+            color: #999;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <img src="15BDA667-3E7D-4D1D-A846-5426B824E817.png" alt="شعار" class="logo">
-        <h1>ليفت بلس</h1>
+        <img src="your-profile-image.jpg" alt="صورة الملف الشخصي" class="profile-image">
+        <h1>اسم المتجر أو اسمك</h1>
+        <p>وصف قصير أو عنوان فرعي هنا</p>
 
         <a href="#" class="link-btn">
-            <img src="icons/location.svg" alt="">
-            <span>موقع المحل</span>
+            <span class="dots-icon">...</span>
+            <span>رابط جديد</span>
         </a>
         <a href="#" class="link-btn">
-            <img src="icons/store.svg" alt="">
-            <span>المتجر الإلكتروني</span>
+            <span class="dots-icon">...</span>
+            <span>رابط جديد</span>
         </a>
         <a href="#" class="link-btn">
-            <img src="icons/whatsapp.svg" alt="">
-            <span>واتساب</span>
+            <span class="dots-icon">...</span>
+            <span>رابط جديد</span>
         </a>
         <a href="#" class="link-btn">
-            <img src="icons/instagram.svg" alt="">
-            <span>انستقرام</span>
-        </a>
-        <a href="#" class="link-btn">
-            <img src="icons/tiktok.svg" alt="">
-            <span>تابعنا على تيك توك</span>
+            <span class="dots-icon">...</span>
+            <span>رابط جديد</span>
         </a>
     </div>
 </body>

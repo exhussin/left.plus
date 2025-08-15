@@ -1,0 +1,64 @@
+:root {
+  --bg: #0a0a0b;
+  --bg-soft: #111113;
+  --text: #f1f1f2;
+  --primary: #6ee7b7;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1.8rem;
+}
+
+.bio {
+  color: gray;
+}
+
+.socials a {
+  margin: 0 5px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.link {
+  display: block;
+  padding: 10px;
+  background: var(--bg-soft);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}

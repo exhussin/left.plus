@@ -12,7 +12,7 @@ body {
     text-align: center;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 400px;
     width: 100%;
@@ -21,22 +21,28 @@ body {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 24px;
+    margin: 5px 0;
 }
 .links {
     margin-top: 20px;
 }
 .link {
-    display: inline-block; /* Changed to inline-block for proper button layout */
-    background-color: #007bff; /* Button background color */
+    display: block; /* Make each link a block for full-width button effect */
+    background-color: #4CAF50; /* Button background color */
     color: white; /* Button text color */
-    padding: 15px 20px; /* Vertical and horizontal padding */
-    margin: 10px 0;
+    padding: 15px; /* Equal padding */
+    margin: 10px 0; /* Space between buttons */
     text-decoration: none; /* Remove underline from links */
     border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.2s, transform 0.2s; /* Smooth hover effect */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth hover effect */
 }
 .link:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #45a049; /* Darker shade on hover */
     transform: translateY(-2px); /* Slight lift effect on hover */
 }
 .link:active {

@@ -20,11 +20,11 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .profile-image {
-            width: 150px;
+        .logo {
+            width: 150px; /* Adjust the size of the logo */
             height: 150px;
-            border-radius: 50%;
             margin-bottom: 20px;
+            margin-top: 20px;
         }
         h1 {
             font-size: 28px;
@@ -44,16 +44,17 @@
             margin: 10px 0;
             font-size: 18px;
             color: white;
-            background-color: #007BFF;
+            background-color: #9B4DCA; /* Purple Background */
             border: none;
             border-radius: 5px;
             text-align: center;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
         }
+        /* Glow effect with purple hue */
         .button:hover {
-            background-color: #0056b3;
-            box-shadow: 0 0 20px rgba(0, 123, 255, 0.8); /* Blue glow effect */
+            background-color: #6A2D91; /* Darker purple on hover */
+            box-shadow: 0 0 20px 4px rgba(155, 77, 202, 0.8); /* Purple glow effect */
             transform: scale(1.05); /* Slight scale effect */
         }
     </style>
@@ -61,8 +62,8 @@
 <body>
 
 <div class="container">
-    <!-- Profile Image -->
-    <img src="your-image-url.jpg" alt="Profile Image" class="profile-image">
+    <!-- Logo Image -->
+    <img src="your-image-url.jpg" alt="Logo" class="logo">
 
     <!-- Title and Description -->
     <h1>Your Name</h1>
@@ -72,9 +73,4 @@
     <button class="button" onclick="window.open('https://link1.com')">Link 1</button>
     <button class="button" onclick="window.open('https://link2.com')">Link 2</button>
     <button class="button" onclick="window.open('https://link3.com')">Link 3</button>
-    <button class="button" onclick="window.open('https://link4.com')">Link 4</button>
-
-</div>
-
-</body>
-</html>
+    <button class="button" onclick="window.open('https://link4.com')">Link 4
